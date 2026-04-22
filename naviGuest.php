@@ -12,7 +12,8 @@
 
 <body> 
     <div class="navbar">
-        <a href="login.php">Sign in</a>  <a href="rekisteri.php">Create a new account</a>
+        <a href="login.php">Kirjaudu sisään</a>  
+        <a href="rekisteri.php">Rekisteröydy</a>
     </div>
 </body>
 </html>
