@@ -93,7 +93,7 @@ if (isset($_POST["laheta"])) {
 
 		if ($choice == "Nimi"){
 
-			$checkSql = "SELECT * FROM resepti WHERE Reseptin_nimi LIKE '%$haku%'";
+			$checkSql = "SELECT * FROM resepti WHERE Reseptin_nimi LIKE '%$haku%' AND Hyväksytty = 1";
 			$checkResult = $yhteys->query($checkSql);
 
 
@@ -179,7 +179,7 @@ if (isset($_POST["laheta"])) {
 
 
 	} else{
-            $checkSql = "SELECT * FROM resepti";
+            $checkSql = "SELECT * FROM resepti WHERE Hyväksytty LIKE 1";
 			$checkResult = $yhteys->query($checkSql);
 
 
