@@ -1,3 +1,6 @@
+<!-- Tämä on Grigoriin tekemä rekisteri.php -->
+<!-- ------ -->
+
 <?php
 session_start();
 ?>
